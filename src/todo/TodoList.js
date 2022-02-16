@@ -1,4 +1,5 @@
 import IconButton from "../components/IconButton"
+import {connect} from 'react-redux'
 
 const TodoList = props =>{
 
@@ -35,4 +36,10 @@ const TodoList = props =>{
     )
 }
 
-export default TodoList
+function mapStateToProps(state){
+    return{
+        list: state.todo.list
+    }
+}
+
+export default connect(mapStateToProps)(TodoList)

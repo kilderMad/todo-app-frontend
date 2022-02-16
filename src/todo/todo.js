@@ -10,7 +10,7 @@ const URL = 'http://localhost:3003/api/todos'
 class Todo extends Component {
     constructor(props){
         super(props)
-        this.state = { description : '', list: []}
+        //this.state = { description : '', list: []}
         this.handleChange = this.handleChange.bind(this)
         this.handleAdd = this.handleAdd.bind(this)
         this.handleRemove = this.handleRemove.bind(this)
@@ -64,13 +64,13 @@ class Todo extends Component {
         return (
             <div>
                 <PageHeader titulo="Todo" descricao="Cadastro"/>
-                <TodoForm description={this.state.description}
+                <TodoForm 
                  handleChange={this.handleChange}
                  handleAdd={this.handleAdd}
                  handleSearch={this.handleSearch}
                  handleClear={this.handleClear}    
                  />
-                <TodoList list={this.state.list}
+                <TodoList 
                  handleRemove={this.handleRemove}
                  handleMarkAsPending={this.handleMarkAsPending}
                  handleMarkAsDone={this.handleMarkAsDone}
