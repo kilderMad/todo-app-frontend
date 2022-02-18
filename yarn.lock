@@ -9541,6 +9541,11 @@
     "flux-standard-action" "^2.0.3"
     "is-promise" "^2.1.0"
 
+"redux-thunk@^2.2.0":
+  "integrity" "sha1-5hWhbha0ehmlFXZhM9Hj6Zt4UuU="
+  "resolved" "https://registry.npmjs.org/redux-thunk/-/redux-thunk-2.2.0.tgz"
+  "version" "2.2.0"
+
 "redux@^4.0.0", "redux@^4.0.5":
   "integrity" "sha512-SH8PglcebESbd/shgf6mii6EIoRM0zrQyjcuQ+ojmfxjTtE0z9Y8pa62iA/OJ58qjP6j27uyW4kUF4jl/jd6sw=="
   "resolved" "https://registry.npmjs.org/redux/-/redux-4.1.2.tgz"
